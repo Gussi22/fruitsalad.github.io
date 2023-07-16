@@ -5,14 +5,14 @@ export const Create = (props) => {
     return (
         <div className="createHome">
             <h2>CreateSalad</h2>
-            <p>TEST</p>
+            <p>Required Mods</p>
             <a
              href={CreateSaladRequired}
              download="CreateSalad_Required"
              target="_blank"
              rel="noopener noreferrer"
             >
-                <button>CreateSalad_Required</button>
+                <button>.zip</button>
             </a>
         </div>
     )
