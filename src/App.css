@@ -10,7 +10,7 @@
 
 .createHome {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 @media screen and (min-width: 600px) {
