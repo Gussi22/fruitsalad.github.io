@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fruitsalads/static/css/main.ff1b7f77.css",
-    "main.js": "/fruitsalads/static/js/main.c4be0e26.js",
+    "main.js": "/fruitsalads/static/js/main.6725ae96.js",
     "static/js/787.d38e8a6c.chunk.js": "/fruitsalads/static/js/787.d38e8a6c.chunk.js",
     "static/media/CreateSalad_Required.zip": "/fruitsalads/static/media/CreateSalad_Required.303bf92da3f15344b0e2.zip",
     "index.html": "/fruitsalads/index.html",
     "main.ff1b7f77.css.map": "/fruitsalads/static/css/main.ff1b7f77.css.map",
-    "main.c4be0e26.js.map": "/fruitsalads/static/js/main.c4be0e26.js.map",
+    "main.6725ae96.js.map": "/fruitsalads/static/js/main.6725ae96.js.map",
     "787.d38e8a6c.chunk.js.map": "/fruitsalads/static/js/787.d38e8a6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff1b7f77.css",
-    "static/js/main.c4be0e26.js"
+    "static/js/main.6725ae96.js"
   ]
 }
