@@ -11,7 +11,9 @@ function App() {
 
   return (
     <div className='App'>
-      <Create />
+      <div>
+        <Create />
+      </div>
     </div>
   );
 }
