@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fruitsalad/static/css/main.073c9b0a.css",
-    "main.js": "/fruitsalad/static/js/main.4e90842f.js",
-    "static/js/787.d38e8a6c.chunk.js": "/fruitsalad/static/js/787.d38e8a6c.chunk.js",
-    "static/media/logo.svg": "/fruitsalad/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/fruitsalad/index.html",
-    "main.073c9b0a.css.map": "/fruitsalad/static/css/main.073c9b0a.css.map",
-    "main.4e90842f.js.map": "/fruitsalad/static/js/main.4e90842f.js.map",
-    "787.d38e8a6c.chunk.js.map": "/fruitsalad/static/js/787.d38e8a6c.chunk.js.map"
+    "main.css": "/fruitsalads/static/css/main.073c9b0a.css",
+    "main.js": "/fruitsalads/static/js/main.57f62706.js",
+    "static/js/787.d38e8a6c.chunk.js": "/fruitsalads/static/js/787.d38e8a6c.chunk.js",
+    "static/media/logo.svg": "/fruitsalads/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/fruitsalads/index.html",
+    "main.073c9b0a.css.map": "/fruitsalads/static/css/main.073c9b0a.css.map",
+    "main.57f62706.js.map": "/fruitsalads/static/js/main.57f62706.js.map",
+    "787.d38e8a6c.chunk.js.map": "/fruitsalads/static/js/787.d38e8a6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.4e90842f.js"
+    "static/js/main.57f62706.js"
   ]
 }
