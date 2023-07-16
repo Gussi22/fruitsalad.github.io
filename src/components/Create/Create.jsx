@@ -5,7 +5,7 @@ export const Create = (props) => {
     return (
         <div className="createHome">
             <h2>CreateSalad</h2>
-            <p>Required Mods</p>
+            <label>Required Mods</label>
             <a
              href={CreateSaladRequired}
              download="CreateSalad_Required"
