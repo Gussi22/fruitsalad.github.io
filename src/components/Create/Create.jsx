@@ -12,7 +12,7 @@ export const Create = (props) => {
              target="_blank"
              rel="noopener noreferrer"
             >
-                <button>.zip</button>
+                <button className="link-btn">.zip</button>
             </a>
         </div>
     )
