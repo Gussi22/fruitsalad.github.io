@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  display: grid;
+  display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -10,7 +10,7 @@
 
 .createHome {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 600px) {
