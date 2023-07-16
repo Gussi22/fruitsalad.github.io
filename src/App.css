@@ -13,6 +13,15 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 600px) {
+  .createHome{
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+
 label {
   text-align: left;
   padding: 0.25rem 0;
@@ -24,12 +33,12 @@ a {
   padding: 20px;
   border-radius: 10px;
   cursor: pointer;
-  color: #7439db;
 }
 
 .link-btn {
+  border: none;
   background: none;
-  color: white;
-  text-decoration: underline;
+  cursor: pointer;
+  color: #7439db;
 }
 
