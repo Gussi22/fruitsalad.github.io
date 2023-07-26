@@ -2,17 +2,15 @@ import './App.css';
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Create from './components/Create/Create';
-import SignIn from './components/auth/SignIn'
-import SignUp from './components/auth/SignUp'
+import Homepage from './components/Homepage';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-      <Route path='fruitsalads' element={<Create />}/>
-      <Route path='signin' element={<SignIn />}/>
-      <Route path='signup' element={<SignUp />}/>
-    </Routes>
+        <Route path='fruitsalads' element={<Homepage />}/>
+        <Route path='create' element={<Create />}/>
+      </Routes>
     </div>
   );
 }

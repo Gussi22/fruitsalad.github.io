@@ -2,7 +2,7 @@ import React from "react";
 import CreateSaladRequired from "../../Downloads/CreateSalad_Required.zip"
 import CreateSaladOptional from "../../Downloads/CreateSalad_Optional.zip"
 
-export const Create = (props) => {
+export const Create = () => {
     return (
         <div className="createHome">
             <h2>CreateSalad</h2>
