@@ -1,8 +1,17 @@
 import React from "react";
 import CreateSaladRequired from "../../Downloads/CreateSalad_Required.zip"
 import CreateSaladOptional from "../../Downloads/CreateSalad_Optional.zip"
+import useBackButton from "../../useBackButton";
+import { useNavigate } from "react-router-dom";
 
 export const Create = () => {
+    const navigate = useNavigate();
+
+    const toDo = () => {
+        navigate("/fruitsalads");
+    }
+
+    useBackButton(toDo);
     return (
         <div className="createHome">
             <h2>CreateSalad</h2>

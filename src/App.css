@@ -1,12 +1,29 @@
 .App {
-  text-align: center;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
   color: white;
   font-family: "Brice BoldCondenced";
   background-image: linear-gradient(79deg, #7439db, #c66fbc 48%, #f7944d);
+}
+
+.AppContainer {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items:center;
+  justify-content: center;
+}
+
+ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  display: inline;
 }
 
 .mods-container {
@@ -39,6 +56,13 @@
     background-color: rgba(118, 109, 114, 0.29);
     font-size: 20px;
   }
+
+  .Homepage {
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
 }
 
 label {
@@ -61,3 +85,11 @@ a {
   color: #7439db;
 }
 
+.btnNav {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
