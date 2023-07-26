@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/signin/static/css/main.082dc157.css",
-    "main.js": "/signin/static/js/main.806e16f6.js",
-    "static/js/787.d38e8a6c.chunk.js": "/signin/static/js/787.d38e8a6c.chunk.js",
-    "static/media/CreateSalad_Required.zip": "/signin/static/media/CreateSalad_Required.303bf92da3f15344b0e2.zip",
-    "static/media/CreateSalad_Optional.zip": "/signin/static/media/CreateSalad_Optional.430a2c6826beefad1fa4.zip",
-    "index.html": "/signin/index.html",
-    "main.082dc157.css.map": "/signin/static/css/main.082dc157.css.map",
-    "main.806e16f6.js.map": "/signin/static/js/main.806e16f6.js.map",
-    "787.d38e8a6c.chunk.js.map": "/signin/static/js/787.d38e8a6c.chunk.js.map"
+    "main.css": "/fruitsalads/static/css/main.082dc157.css",
+    "main.js": "/fruitsalads/static/js/main.0377c0a2.js",
+    "static/js/787.d38e8a6c.chunk.js": "/fruitsalads/static/js/787.d38e8a6c.chunk.js",
+    "static/media/CreateSalad_Required.zip": "/fruitsalads/static/media/CreateSalad_Required.303bf92da3f15344b0e2.zip",
+    "static/media/CreateSalad_Optional.zip": "/fruitsalads/static/media/CreateSalad_Optional.430a2c6826beefad1fa4.zip",
+    "index.html": "/fruitsalads/index.html",
+    "main.082dc157.css.map": "/fruitsalads/static/css/main.082dc157.css.map",
+    "main.0377c0a2.js.map": "/fruitsalads/static/js/main.0377c0a2.js.map",
+    "787.d38e8a6c.chunk.js.map": "/fruitsalads/static/js/787.d38e8a6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.082dc157.css",
-    "static/js/main.806e16f6.js"
+    "static/js/main.0377c0a2.js"
   ]
 }
