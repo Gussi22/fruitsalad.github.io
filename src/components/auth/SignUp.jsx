@@ -1,4 +1,5 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
+import { useNavigate } from "react-router-dom";
 import React, {useState} from 'react';
 import { auth } from '../../firebase';
 
@@ -7,11 +8,13 @@ const SignUp = (props) => {
     const [password, setPassword] = useState('');
     const [err, setErr] = useState('');
 
+    const navigate = useNavigate();
+
     const signUp = (e) => {
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
-            .then((userCreadential) => {
-                props.onFormSwitch('login')
+            .then(() => {
+                props.onFormSwitch('login') //Change to navigate
             })
             .catch((error) => {
                 const errorString = error.toString();
@@ -54,7 +57,7 @@ const SignUp = (props) => {
                     setPassword(e.target.value)}/>
                 <button type='submit'>Sign Up</button>
             </form>
-            <button className="link-btn" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here.</button>
+            <button className="link-btn" onClick={() => navigate("/signin", {replace : true})}>Already have an account? Login here.</button>
             <p className="error">{err}</p>
         </div>
     )
