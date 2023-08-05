@@ -8,7 +8,7 @@ function App() {
   const navigate = useNavigate();
   return (
     <div className="App">
-      <ul>
+      <ul className='btnNavContainer'>
         <li><button className='btnNav' onClick={() => navigate("/fruitsalads")}>Home</button></li>
         <li><button className='btnNav' onClick={() => navigate("/create")}>Create</button></li>
       </ul>

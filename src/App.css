@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-ul {
+ul.btnNavContainer {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -23,6 +23,11 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 10px;
+}
+
+.btnNav:hover{
+  background-color: #7439db;
+
 }
 
 li {
@@ -46,7 +51,7 @@ li {
 
 @media screen and (min-width: 600px) {
   .createHome{
-    flex-direction: row;
+    flex-direction: column;
     padding: 1rem;
     border: 1px solid white;
     border-radius: 10px;
@@ -96,4 +101,39 @@ a {
   border-radius: 10px;
   margin-left: 10px;
   cursor: pointer;
+}
+
+.home-links {
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  flex-direction: column;
+  display: flex;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(128, 128, 128, 50%);
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.discord-logo {
+  height: 100px;
+  cursor: pointer;
+  border: none;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.home-label {
+  text-decoration: none;
+  font-size: 20px;
 }
