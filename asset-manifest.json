@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/fruitsalads/static/css/main.6e424b2c.css",
-    "main.js": "/fruitsalads/static/js/main.65b7e0db.js",
+    "main.css": "/fruitsalads/static/css/main.e767f226.css",
+    "main.js": "/fruitsalads/static/js/main.a8dbf037.js",
     "static/js/787.d38e8a6c.chunk.js": "/fruitsalads/static/js/787.d38e8a6c.chunk.js",
-    "static/media/CreateSalad_Required.zip": "/fruitsalads/static/media/CreateSalad_Required.303bf92da3f15344b0e2.zip",
+    "static/media/CreateSalad_Required.zip": "/fruitsalads/static/media/CreateSalad_Required.87107a7b039c994a7339.zip",
     "static/media/CreateSalad_Optional.zip": "/fruitsalads/static/media/CreateSalad_Optional.430a2c6826beefad1fa4.zip",
+    "static/media/config.png": "/fruitsalads/static/media/config.356e7227a2c10fd219f3.png",
+    "static/media/Discord Logo.png": "/fruitsalads/static/media/Discord Logo.667df059ddf407979d68.png",
     "index.html": "/fruitsalads/index.html",
-    "main.6e424b2c.css.map": "/fruitsalads/static/css/main.6e424b2c.css.map",
-    "main.65b7e0db.js.map": "/fruitsalads/static/js/main.65b7e0db.js.map",
+    "main.e767f226.css.map": "/fruitsalads/static/css/main.e767f226.css.map",
+    "main.a8dbf037.js.map": "/fruitsalads/static/js/main.a8dbf037.js.map",
     "787.d38e8a6c.chunk.js.map": "/fruitsalads/static/js/787.d38e8a6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e424b2c.css",
-    "static/js/main.65b7e0db.js"
+    "static/css/main.e767f226.css",
+    "static/js/main.a8dbf037.js"
   ]
 }
