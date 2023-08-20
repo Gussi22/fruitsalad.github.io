@@ -27,7 +27,7 @@ ul.btnNavContainer {
 
 .btnNav:hover{
   background-color: #7439db;
-
+  transition: 0.5s;
 }
 
 li {
@@ -87,11 +87,22 @@ a {
   cursor: pointer;
 }
 
+a:hover {
+  background-color: #7439db;
+  transition: 0.8s;
+}
+
 .link-btn {
   border: none;
   background-color: white;
   cursor: pointer;
   color: #7439db;
+}
+
+.link-btn:hover {
+  background-color: #7439db;
+  color: white;
+  transition: 0.8s;
 }
 
 .btnNav {
@@ -117,6 +128,12 @@ a {
   margin: 0.5rem;
   border-radius: 10px;
   width: 150px;
+  transition: 0.5s;
+}
+
+.home-links:hover {
+  background-color: rgba(128, 128, 128, 1);
+  transition: 0.5s;
 }
 
 .discord-logo {
